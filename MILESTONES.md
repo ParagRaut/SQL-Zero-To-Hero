@@ -2,12 +2,12 @@
 
 Tick a box when you finish a module (concepts read + exercises done). I update this as we go.
 
-**Overall progress:** 0 / 25 modules complete.
+**Overall progress:** 1 / 25 modules complete.
 
 ---
 
 ## Stage 1 — Foundations
-- [ ] Module 0 — Environment & Mental Model
+- [x] Module 0 — Environment & Mental Model
 - [ ] Module 1 — SELECT Basics
 - [ ] Module 2 — Filtering with WHERE
 - [ ] Module 3 — Built-in Functions
@@ -44,9 +44,9 @@ Tick a box when you finish a module (concepts read + exercises done). I update t
 ---
 
 ## Setup checklist
-- [ ] Ran `01_create_database.sql`
-- [ ] Ran `02_create_tables.sql`
-- [ ] Ran `03_seed_data.sql`
+- [x] Ran `01_create_database.sql`
+- [x] Ran `02_create_tables.sql`
+- [x] Ran `03_seed_data.sql`
 - [ ] (Optional) Ran `05_generate_large_data.sql` for perf modules
 
 ## Skills self-assessment (revisit at the end)

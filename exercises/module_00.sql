@@ -34,14 +34,23 @@ SELECT TOP (10) * FROM dbo.Products;
   c) How many rows are in the Orders table? (hint: COUNT(*))
 -------------------------------------------------*/
 
--- a)
+-- a) 
+SELECT TOP (5) * FROM dbo.Customers;
 
 
 -- b)
-
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Orders';
+-- ✔ Correct. Suggestion: add ORDER BY ORDINAL_POSITION so columns come back
+--   in table order instead of an arbitrary order (predictable, readable output):
+--   ORDER BY ORDINAL_POSITION;
 
 -- c)
-
+SELECT COUNT(*) FROM dbo.Orders;
+-- ✔ Correct. Suggestion: alias the column so the result header is meaningful
+--   (otherwise SSMS shows "(No column name)"):
+--   SELECT COUNT(*) AS OrderCount FROM dbo.Orders;
 
 /*==============================================================
   Solutions (try first, then scroll)
