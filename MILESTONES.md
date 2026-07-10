@@ -2,13 +2,13 @@
 
 Tick a box when you finish a module (concepts read + exercises done). I update this as we go.
 
-**Overall progress:** 1 / 25 modules complete.
+**Overall progress:** 2 / 25 modules complete.
 
 ---
 
 ## Stage 1 — Foundations
 - [x] Module 0 — Environment & Mental Model
-- [ ] Module 1 — SELECT Basics
+- [x] Module 1 — SELECT Basics
 - [ ] Module 2 — Filtering with WHERE
 - [ ] Module 3 — Built-in Functions
 

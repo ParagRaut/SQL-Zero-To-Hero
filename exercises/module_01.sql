@@ -42,15 +42,18 @@ ORDER BY Country;
 -------------------------------------------------*/
 
 -- a)
-
+SELECT P.ProductName, P.UnitsInStock FROM dbo.Products P
+ORDER BY P.UnitPrice ASC;
 
 -- b)
-
+SELECT C.FirstName + ' ' + C.LastName AS FullName FROM dbo.Customers C;
 
 -- c)
-
+SELECT TOP (3) P.ProductName FROM dbo.Products P
+ORDER BY P.CreatedAt DESC;
 
 -- d)
+SELECT DISTINCT S.City FROM dbo.Suppliers S;
 
 
 /*==============================================================
