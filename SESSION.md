@@ -9,8 +9,8 @@ This file is the "save game" for our learning sessions. When you say **"end sess
 
 - **Last updated:** 2026-07-10 — started learning
 - **Current stage:** Stage 1 — Foundations
-- **Current module:** Module 1 — SELECT Basics (in progress)
-- **Status:** Module 0 complete. Working through Module 1.
+- **Current module:** Module 2 — Filtering with WHERE (in progress)
+- **Status:** Modules 0–1 complete. All exercise files (2–24) scaffolded. Working through Module 2.
 
 ### What we did last session
 - Created the course workspace (`README.md`, `COURSE.md`, `MILESTONES.md`).
@@ -21,8 +21,8 @@ This file is the "save game" for our learning sessions. When you say **"end sess
 - User runs queries in SSMS/ADS; assistant explains & verifies on request.
 
 ### Next up (start here next time)
-1. Finish **Module 1** exercises in [exercises/module_01.sql](exercises/module_01.sql).
-2. Move to **Module 2 — Filtering with WHERE**.
+1. Finish **Module 2** exercises in [exercises/module_02.sql](exercises/module_02.sql).
+2. Move to **Module 3 — Built-in Functions**.
 
 ### Open questions / notes
 - (none yet)
